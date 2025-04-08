@@ -13,7 +13,8 @@ const{Cart}=require('./model/Cart');
 app.use(cors());
 app.use(morgan('dev'))
 app.use(express.json());
-mongoose.connect('mongodb://127.0.0.1:27017/rahulEcomm')
+BHnlI5eDB7L9BK7w
+mongoose.connect('mongodb+srv://sakshibokade03:BHnlI5eDB7L9BK7w@cluster0.t1pqitk.mongodb.net/?retryWrites=true&w=majority')
 .then(()=>{
     console.log("db is connected")
 }).catch((error)=>{
